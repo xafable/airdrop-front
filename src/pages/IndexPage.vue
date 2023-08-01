@@ -198,7 +198,7 @@
            Attention: the initial testing of most GameFi projects (alpha and beta versions) is carried out on the Windows OS</p>
       </q-card-section>
       </q-card>
-      <div style="height: 40px;"></div>
+      <div style="height: 30px;"></div>
       <div class="row justify-center">
         <p class="text-h4 text-weight-bolder" style="color: #e6e1e5;">To Join this Airdrop you''ll need:</p>
 
