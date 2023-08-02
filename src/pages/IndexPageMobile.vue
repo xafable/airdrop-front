@@ -59,7 +59,7 @@
         <q-carousel-slide name="slide_2" class="column no-wrap ">
 
             <div class="row">
-              <q-card class="c-card" style="background: rgba(52, 87, 204, 0.904) !important;">
+              <q-card class="c-card" style="background: rgba(52, 87, 204, 0.904) !important;width: 100% !important;">
                 <q-card-section>
                     <div class="text-h3 text-weight-bolder" style="color: #e6e1e5;">
                         <q-icon class="text-dark" size="lg">
@@ -91,7 +91,7 @@
         <q-carousel-slide name="slide_3" class="column no-wrap ">
 
             <div class="row">
-              <q-card class="c-card" style="background: rgba(238,84,56,0.9) !important;">
+              <q-card class="c-card" style="background: rgba(238,84,56,0.9) !important;width: 100% !important;">
                 <q-card-section>
                   <div class="text-h3 text-weight-bolder" style="color: #e6e1e5;">
                     <q-icon class="text-dark" size="lg">
@@ -124,7 +124,7 @@
         <q-carousel-slide name="slide_4" class="column no-wrap ">
 
             <div class="row">
-              <q-card class="c-card" style="background: rgb(157,157,77) !important;">
+              <q-card class="c-card" style="background: rgb(157,157,77) !important;width: 100% !important;">
                 <q-card-section>
                   <div class="text-h3 text-weight-bolder" style="color: #e6e1e5;">
                     <q-icon class="text-dark" size="lg">
