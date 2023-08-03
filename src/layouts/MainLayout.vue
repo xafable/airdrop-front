@@ -14,9 +14,8 @@
 
           <div style="height: 6px;"></div>
           <div class="row justify-center">
-            <q-btn round size="lg" color="primary" icon="fa-brands fa-telegram" style="margin-left: 5px;margin-right: 5px;"/>
-            <q-btn round size="lg" color="primary" icon="fa-brands fa-instagram" style="margin-left: 5px;margin-right: 5px;"/>
-            <q-btn round size="lg" color="primary" icon="fa-brands fa-discord" style="margin-left: 5px;margin-right: 5px;"/>
+            <q-btn @click="clickedTelegram()" round size="lg" color="primary" icon="fa-brands fa-telegram" style="margin-left: 5px;margin-right: 5px;"/>
+            <q-btn @click="clickedDiscord()" round size="lg" color="primary" icon="fa-brands fa-discord" style="margin-left: 5px;margin-right: 5px;"/>
           </div>
           <div style="height: 6px;"></div>
 
@@ -27,5 +26,33 @@
 
   </q-layout>
 </template>
-<script setup>
+<script>
+import { defineComponent } from 'vue'
+import { useMainStore } from 'stores/main';
+
+
+
+export default defineComponent({
+  name: 'MainLayout',
+  setup () {
+    const store = useMainStore()
+
+    const clickedTelegram = () => {
+      store.setIsTelegramModalOpen(true)
+    }
+    const clickedDiscord = () => {
+      store.setIsDiscordModalOpen(true)
+    }
+
+
+    return {
+      clickedDiscord,
+      clickedTelegram
+    }
+
+  }
+
+  }
+)
 </script>
+

@@ -17,7 +17,7 @@
         infinite
         padding
         autoplay
-        height="400px"
+        height="325px"
         class="bg-primary text-white shadow-1 rounded-borders"
       >
 
@@ -41,18 +41,13 @@
           <br>
 
             <div class="row">
-                <p class="text-weight-bolder">Airdrop registration start:</p>
+                <p class="text-weight-bolder">Event registration start:</p>
             </div>
             <div class="row">
                  <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Jul 25, 12:00 AM</p>
             </div>
 
-            <div class="row">
-              <p class="text-weight-bolder">Registration ends:</p>
-            </div>
-          <div class="row">
-            <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Ends in 5 days</p>
-          </div>
+
 
         </q-carousel-slide>
 
@@ -73,18 +68,12 @@
             </div>
           <br>
             <div class="row">
-              <p class="text-weight-bolder">Airdrop registration start:</p>
+              <p class="text-weight-bolder">Event registration start:</p>
             </div>
           <div class="row">
             <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Aug 5, 08:00 AM</p>
           </div>
 
-            <div class="row">
-              <p class="text-weight-bolder">Registration ends:</p>
-            </div>
-          <div class="row">
-            <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Ends in 25 days</p>
-          </div>
 
         </q-carousel-slide>
 
@@ -105,19 +94,13 @@
             </div>
           <br>
             <div class="row">
-              <p class="text-weight-bolder">Airdrop registration start:</p>
+              <p class="text-weight-bolder">Event registration start:</p>
             </div>
           <div class="row">
             <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Jul 28, 10:00 AM</p>
           </div>
 
-            <div class="row">
-              <p class="text-weight-bolder">Registration ends:</p>
 
-            </div>
-          <div class="row">
-            <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Ends in 56 days</p>
-          </div>
 
         </q-carousel-slide>
 
@@ -138,18 +121,13 @@
             </div>
           <br>
             <div class="row">
-              <p class="text-weight-bolder">Airdrop registration start:</p>
+              <p class="text-weight-bolder">Event registration start:</p>
             </div>
           <div class="row">
             <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Aug 10, 10:00 AM</p>
           </div>
 
-            <div class="row">
-              <p class="text-weight-bolder">Registration ends:</p>
-            </div>
-          <div class="row">
-            <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Ends in 90 days</p>
-          </div>
+
         </q-carousel-slide>
 
         <q-carousel-slide name="slide_5" class="column no-wrap ">
@@ -169,18 +147,13 @@
             </div>
           <br>
             <div class="row">
-              <p class="text-weight-bolder">Airdrop registration start:</p>
+              <p class="text-weight-bolder">Event registration start:</p>
             </div>
           <div class="row">
             <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Jun 18, 02:00 AM</p>
           </div>
 
-            <div class="row">
-              <p class="text-weight-bolder">Registration ends:</p>
-            </div>
-          <div class="row">
-            <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Ends in 12 days</p>
-          </div>
+
 
         </q-carousel-slide>
 
@@ -201,18 +174,13 @@
             </div>
           <br>
             <div class="row">
-              <p class="text-weight-bolder">Airdrop registration start:</p>
+              <p class="text-weight-bolder">Event registration start:</p>
             </div>
           <div class="row">
             <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Aug 25, 03:00 AM</p>
           </div>
 
-            <div class="row">
-              <p class="text-weight-bolder">Registration ends:</p>
-            </div>
-          <div class="row">
-            <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">Ends in 120 days</p>
-          </div>
+
 
         </q-carousel-slide>
 
@@ -224,12 +192,14 @@
         <p class="text-weight-bolder">Register now for a chance to earn money by participating in Airdrop or Play2Earn project.</p>
         <p>This website provides information about different giveaways and P2E projects. We have a list of top P2E blockchain games that offer users a rich gaming experience along with multiple opportunities to earn money.
            If you want to earn money and immerse yourself in the world of blockchain leave an application below and we will contact you via mail.
-           Attention: the initial testing of most GameFi projects (alpha and beta versions) is carried out on the Windows OS</p>
+           </p>
+        <p class="text-h6" style="color: #8c4545">ATTENTION: the initial testing of most GameFi projects (alpha and beta versions) is carried out on the Windows OS</p>
+
       </q-card-section>
       </q-card>
       <div style="height: 30px;"></div>
       <div class="row justify-center">
-        <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">To Join this Airdrop you''ll need:</p>
+        <p class="text-h5 text-weight-bolder" style="color: #e6e1e5;">To participate in our projects, leave the following details:</p>
 
       </div>
       <div class="row justify-center">
@@ -298,60 +268,41 @@
 
 
     <q-page-sticky position="bottom-right" :offset="[18, 18]">
-            <q-btn @click="isModalOpen=true" fab icon="help" color="primary" />
+            <q-btn @click="isSupportModalOpen=true" fab icon="help" color="primary" />
           </q-page-sticky>
 
   </q-page>
 
 
-  <q-dialog v-model="isModalOpen" persistent transition-show="flip-down" transition-hide="flip-up" >
-    <q-card class="text-white" style="width:100%;background: #26232a;">
-      <q-bar>
-
-
-        <q-space />
-
-        <q-btn dense flat icon="close" v-close-popup>
-          <q-tooltip class="bg-white text-primary">Close</q-tooltip>
-        </q-btn>
-      </q-bar>
-
-
-      <q-card-section>
-        <div class="text-h6">Send us your question</div>
-      </q-card-section>
-
-      <q-card-section class="q-pt-none" >
-        <q-input ref="questionRef" :rules="[ val => val.length >= 10 || 'Minimum 10 characters' ]"
-          lazy-rules = "ondemand"
-          dark standout="bg-deep-purple-4 text-white" v-model="question" label="question" color="grey-3" label-color="pink-1" />
-        <br>
-        <q-input ref="emailQuestionRef" :rules="[ (val, rules) => rules.email(val) || 'Please enter a valid email address' ]"
-          lazy-rules = "ondemand"
-          dark standout="bg-deep-purple-4 text-white" v-model="emailQuestion" label="email" color="grey-3" label-color="pink-1" />
-        <br>
-
-        <q-btn @click="questionClick" color="deep-purple-3" label="Send" />
-
-
-      </q-card-section>
-
-    </q-card>
+  <q-dialog  v-model="isSupportModalOpen" persistent transition-show="flip-down" transition-hide="flip-up" >
+    <Support @sendquestion="onSendQuestion" title="Send us your question" type="support"></Support>
+  </q-dialog>
+  <q-dialog  v-model="isTelegramModalOpen" persistent transition-show="flip-down" transition-hide="flip-up" >
+    <Support @sendquestion="onSendQuestion" title="Your Telegram for communication" type="telegram"></Support>
+  </q-dialog>
+  <q-dialog  v-model="isDiscordModalOpen" persistent transition-show="flip-down" transition-hide="flip-up" >
+    <Support @sendquestion="onSendQuestion" title="Your Discord for communication" type="discord"></Support>
   </q-dialog>
 
 
 </template>
 
 <script>
-import { defineComponent, ref, getCurrentInstance } from 'vue'
+import {defineComponent, ref, getCurrentInstance, inject} from 'vue'
 import { useQuasar } from 'quasar'
+import Support from "components/Support.vue"
+import {useMainStore} from "stores/main"
+import { storeToRefs } from 'pinia'
 
 export default defineComponent({
   name: 'IndexPageMobile',
+  components: {
+    Support
+  },
   setup () {
     const $q = useQuasar()
     const instance = getCurrentInstance()
-
+    const store = useMainStore()
 
 
     const isMobile = ref('yes')
@@ -360,9 +311,17 @@ export default defineComponent({
     const slide = ref('slide_1')
     const email = ref('')
     const wallet = ref('')
-    const isModalOpen = ref(false)
-    const emailQuestion = ref('')
-    const question = ref('')
+
+
+    const { isSupportModalOpen, isTelegramModalOpen,isDiscordModalOpen } = storeToRefs(store)
+
+    const onSendQuestion = () => {
+
+      isSupportModalOpen.value = false
+      isTelegramModalOpen.value = false
+      isDiscordModalOpen.value = false
+    }
+
 
     const stepClick = () => {
       if(step.value === 1 ){
@@ -385,18 +344,6 @@ export default defineComponent({
 
       if(step.value === 3)
         $q.notify('Congratulations! You have subscribed to the newsletter.')
-
-
-
-    }
-
-    const questionClick = () => {
-      if(instance.refs.questionRef.validate() && instance.refs.emailQuestionRef.validate()){
-        $q.notify('Your message has been sent. We will contact you.')
-        isModalOpen.value = false
-
-      }
-
     }
 
 
@@ -407,12 +354,12 @@ export default defineComponent({
       slide,
       email,
       wallet,
-      isModalOpen,
-      emailQuestion,
-      question,
+      isSupportModalOpen,
+      isTelegramModalOpen,
+      isDiscordModalOpen,
       stepClick,
-      questionClick,
-      isMobile
+      isMobile,
+      onSendQuestion
     }
   }
 })
